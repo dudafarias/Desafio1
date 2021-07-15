@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(241, 198, 6, 0.911);
+  background-image: url(/assets/Images/Background/backgroundBananaAmarela.jpeg);
+  color: rgb(3, 3, 3);
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(3, 3, 3);
+    margin: 90px 90px 90px 90px;
+    border: solid 2px #000;
+    font-display: center ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    max-width: 90%;
+}
+.Description{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(3, 3, 3);
+    margin: 90px 90px 90px 90px;
+    border: solid 2px #000;
+    font-display: center ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+
+.colection{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.card{
+    border: solid 2px #000;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 25%;
+    
+}
+
+.callToAction{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(3, 3, 3);
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    border: solid 2px #000;
+    font-display: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    max-width: 90%;
+}
+
+.dados{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgba(241, 198, 6, 0.911);;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.button{
+    margin-left: 30px;
+    background-color: #000;
+}
